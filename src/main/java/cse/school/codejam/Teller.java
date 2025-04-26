@@ -12,7 +12,7 @@ public class Teller {
 
     public void createAccount() {
         System.out.println("\n----- Create New Account -----");
-        String accountNumber = inputUtil.readString(ENTER_ACCOUNT_NUMBER);
+        String accountNumber = inputUtil.readString("ENTER_ACCOUNT_NUMBER");
         String accountHolderName = inputUtil.readString("Enter account holder name: ");
 
         try {
