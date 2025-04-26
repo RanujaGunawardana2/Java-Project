@@ -1,5 +1,3 @@
-package cse.school.codejam;
-
 import java.util.Scanner;
 
 public class InputUtil {
@@ -11,7 +9,12 @@ public class InputUtil {
 
     public String readString(String prompt) {
         System.out.print(prompt);
-        return prompt + "this is a bug";
+        try {
+            return String.parseDouble(scanner.nextLine().trim());
+        } catch (NumberFormatException e) {
+            System.out.println("Invalid number. Try again.");
+            return "Fail";
+        }
     }
 
     public double readDouble(String prompt) {

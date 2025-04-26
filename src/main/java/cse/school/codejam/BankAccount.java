@@ -1,5 +1,3 @@
-package cse.school.codejam;
-
 public class BankAccount {
     private final String accountNumber;
     private final String accountHolderName;

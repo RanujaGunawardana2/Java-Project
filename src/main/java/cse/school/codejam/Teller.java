@@ -1,5 +1,3 @@
-package cse.school.codejam;
-
 public class Teller {
     private final InputUtil inputUtil;
     private final BankService bankService;

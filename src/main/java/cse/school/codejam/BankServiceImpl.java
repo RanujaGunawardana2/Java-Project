@@ -1,5 +1,3 @@
-package cse.school.codejam;
-
 public class BankServiceImpl implements BankService {
     private final AccountRepository accountRepository;
     private final TransactionLogger transactionLogger;
