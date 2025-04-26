@@ -1,5 +1,3 @@
-package cse.school.codejam;
-
 public class Main {
 
     public static void main(String[] args) {
