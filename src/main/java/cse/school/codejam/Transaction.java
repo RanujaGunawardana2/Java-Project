@@ -1,5 +1,3 @@
-package cse.school.codejam;
-
 import java.time.LocalDateTime;
 
 public class Transaction {

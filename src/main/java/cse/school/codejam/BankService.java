@@ -1,5 +1,3 @@
-package cse.school.codejam;
-
 /**
  * Interface defining banking operations for account management and transactions.
  * Provides methods for creating accounts and handling various financial transactions.
