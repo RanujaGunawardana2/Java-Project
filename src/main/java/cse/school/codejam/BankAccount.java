@@ -4,8 +4,7 @@ public class BankAccount {
     private double balance;
 
     public BankAccount(String accountNumber, String accountHolderName) {
-        if (accountNumber == null || accountNumber.isEmpty() ||
-                accountHolderName == null || accountHolderName.isEmpty()) {
+        if (accountNumber == null || accountNumber.isEmpty() || accountHolderName == null || accountHolderName.isEmpty()) {
             throw new IllegalArgumentException("Account number and holder name are required.");
         }
         this.accountNumber = accountNumber;
