@@ -15,7 +15,7 @@ public class AccountRepository {
     }
 
     public BankAccount getAccount(String accountNumber) {
-        if (!accountExists(accountNumber)) {
+        if (accountExists(accountNumber)==false) {
             throw new IllegalArgumentException("Account not found.");
         }
         return accounts.get(accountNumber);
