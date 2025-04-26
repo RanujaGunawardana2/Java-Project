@@ -1,5 +1,4 @@
 import java.util.*;
-import Transaction.java;
 
 public class TransactionLogger {
     private final Map<String, List<Transaction>> map = new HashMap<>();
