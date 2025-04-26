@@ -10,7 +10,7 @@ public class InputUtil {
     public String readString(String prompt) {
         System.out.print(prompt);
         try {
-            return String.parseDouble(scanner.nextLine().trim());
+            return scanner.nextLine().trim();
         } catch (NumberFormatException e) {
             System.out.println("Invalid number. Try again.");
             return "Fail";
